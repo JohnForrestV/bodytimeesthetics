@@ -1,3 +1,30 @@
-*body{
-    
+body {
+  margin: auto;
+  font-family: "Arial", sans-serif;
+  background-color: rgb(179, 0, 0);
+}
+
+img {
+  background-image: url(imgs/top.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.bannerimg {
+  position: relative;
+}
+
+.bannertext {
+  position: absolute;
+  top: 5%;
+  padding: 2%;
+}
+
+.secondbannerimg {
+  position: absolute;
+  bottom: 0;
+  padding: 3%;
+  width: 200px;
+  clip-path: circle(30%);
+  background-color: white;
 }
