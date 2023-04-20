@@ -43,3 +43,11 @@ img {
   margin: 20px;
   background-color: #ffffff;
 }
+
+.infobox {
+  font-family: cursive;
+  width: 450px;
+  border: 15px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin: 20px auto;
+}
