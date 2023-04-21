@@ -1,7 +1,7 @@
 body {
   margin: auto;
   font-family: "Arial", sans-serif;
-  background-color: rgb(161, 0, 0);
+  background-color: rgb(175, 32, 32);
 }
 
 img {
@@ -50,4 +50,6 @@ img {
   border: 15px solid rgb(255, 255, 255);
   padding: 10px;
   margin: 20px auto;
+  background-color: rgb(175, 32, 32);
+  font-size: large;
 }
