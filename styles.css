@@ -13,6 +13,7 @@ img {
 
 .bannerimg {
   position: relative;
+  background-color: aqua;
 }
 
 .bannertext {
