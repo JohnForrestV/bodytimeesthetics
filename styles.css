@@ -1,7 +1,7 @@
 body {
   margin: auto;
   font-family: "Arial", sans-serif;
-  background-color: rgb(173, 32, 32);
+  background-color: rgb(175, 32, 32);
 }
 
 img {
@@ -20,7 +20,7 @@ img {
 .bannertext {
   font-family: cursive;
   position: absolute;
-  font-size: 57px;
+  font-size: 55px;
   top: 2%;
   left: 37%;
   right: 0;
@@ -64,7 +64,7 @@ img {
   width: 255px;
   padding: 5%;
   margin: auto;
-  border: 15px solid rgb(247, 241, 241);
+  border: 15px solid rgb(255, 255, 255);
   float: left;
   background-color: aqua;
   font-family: cursive;
