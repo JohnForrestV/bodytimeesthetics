@@ -39,7 +39,7 @@ img {
 }
 
 .infobox {
-  width: 500px;
+  width: 700px;
   border: 15px solid rgb(255, 255, 255);
   padding: 5px;
   margin: 20px auto;
@@ -51,41 +51,45 @@ img {
 }
 
 #procedures1 {
-  width: 255px;
-  padding: 5%;
-  margin: auto;
-  border: 15px solid rgb(255, 255, 255);
+  width: 664px;
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
   float: left;
-  background-color: aqua;
+  background-color: rgb(175, 31, 32);
   font-family: cursive;
+  background-image: url(imgs/endermologia.webp);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 #procedures2 {
-  width: 255px;
-  padding: 5%;
-  margin: auto;
-  border: 15px solid rgb(255, 255, 255);
+  width: 664px;
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
   float: left;
-  background-color: aqua;
+  background-color: rgb(175, 31, 32);
   font-family: cursive;
 }
 
 #procedures3 {
-  width: 255px;
-  padding: 5%;
-  margin: auto;
-  border: 15px solid rgb(255, 255, 255);
+  width: 664px;
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
   float: left;
-  background-color: aqua;
+  background-color: rgb(175, 31, 32);
   font-family: cursive;
 }
 
 #procedures4 {
-  width: 255px;
-  padding: 5%;
-  margin: auto;
-  border: 15px solid rgb(255, 255, 255);
+  width: 664px;
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
   float: left;
-  background-color: aqua;
+  background-color: rgb(175, 31, 32);
   font-family: cursive;
 }
