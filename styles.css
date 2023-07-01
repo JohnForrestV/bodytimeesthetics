@@ -51,7 +51,7 @@ img {
 }
 
 #procedures1 {
-  width: 664px;
+  width: 669px;
   padding: 7%;
   margin: 0px;
   border: 8px solid rgb(255, 255, 255);
@@ -60,12 +60,13 @@ img {
   font-family: cursive;
   background-image: url(imgs/endermologia.webp);
   background-size: contain;
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
+  text-align: right;
 }
 
 #procedures2 {
-  width: 664px;
+  width: 669px;
   padding: 7%;
   margin: 0px;
   border: 8px solid rgb(255, 255, 255);
@@ -73,13 +74,14 @@ img {
   background-color: rgb(175, 31, 32);
   font-family: cursive;
   background-image: url(imgs/carboxterapia.jpg);
-  background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
+  background-size: contain;
+  text-align: right;
 }
 
 #procedures3 {
-  width: 664px;
+  width: 669px;
   padding: 7%;
   margin: 0px;
   border: 8px solid rgb(255, 255, 255);
@@ -87,10 +89,13 @@ img {
   background-color: rgb(175, 31, 32);
   font-family: cursive;
   background-image: url(imgs/drenagens.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #procedures4 {
-  width: 664px;
+  width: 669px;
   padding: 7%;
   margin: 0px;
   border: 8px solid rgb(255, 255, 255);
@@ -98,4 +103,7 @@ img {
   background-color: rgb(175, 31, 32);
   font-family: cursive;
   background-image: url(imgs/radiofrequencia.jpeg);
+  background-position: right;
+  background-size: 500px;
+  background-repeat: no-repeat;
 }
