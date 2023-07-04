@@ -56,14 +56,11 @@ img {
   justify-content: center;
   align-items: flex-start;
   margin: 20px auto;
-  width: 900px; /* Adjust the width to fit your desired layout */
+  width: 900px;
 }
 
-.procedures1,
-procedures2,
-procedures3,
-procedures4 {
-  width: 200px; /* Adjust the width to fit your desired layout */
+.procedures1 {
+  flex: 1 0 200px; /* Adjust the width to fit your desired layout */
   padding: 7%;
   margin: 0px;
   border: 8px solid rgb(255, 255, 255);
@@ -71,6 +68,47 @@ procedures4 {
   font-family: cursive;
   background-repeat: no-repeat;
   background-size: contain;
-  text-align: right;
-  margin-bottom: 20px;
+}
+
+.procedures2 {
+  flex: 1 0 200px; /* Adjust the width to fit your desired layout */
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
+  background-color: rgb(175, 31, 32);
+  font-family: cursive;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.procedures3 {
+  flex: 1 0 200px; /* Adjust the width to fit your desired layout */
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
+  background-color: rgb(175, 31, 32);
+  font-family: cursive;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.procedures3 img {
+  width: 150%;
+  height: auto;
+}
+
+.procedures4 {
+  flex: 1 0 200px; /* Adjust the width to fit your desired layout */
+  padding: 7%;
+  margin: 0px;
+  border: 8px solid rgb(255, 255, 255);
+  background-color: rgb(175, 31, 32);
+  font-family: cursive;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.procedures4 img {
+  width: 100%;
+  height: auto;
 }
