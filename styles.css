@@ -102,6 +102,7 @@ img {
   font-family: cursive;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
 }
 
 .procedures3 img {
@@ -118,6 +119,7 @@ img {
   font-family: cursive;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
 }
 
 .procedures4 img {
