@@ -106,7 +106,7 @@ img {
 }
 
 .procedures3 img {
-  width: 150%;
+  width: auto;
   height: auto;
 }
 
@@ -123,6 +123,6 @@ img {
 }
 
 .procedures4 img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
