@@ -127,4 +127,5 @@ img {
 .procedures4 img {
   width: auto;
   height: auto;
+  display: flex;
 }
