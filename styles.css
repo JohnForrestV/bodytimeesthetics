@@ -65,7 +65,23 @@ img {
 }
 
 .procedures1,
-.procedures2,
+.procedures2 {
+  flex-basis: 50%;
+  padding: 7%;
+  margin: 0;
+  border: 8px solid rgb(255, 255, 255);
+  background-color: rgb(175, 31, 32);
+  font-family: cursive;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
 .procedures3,
 .procedures4 {
   flex-basis: 50%;
