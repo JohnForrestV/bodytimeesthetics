@@ -109,6 +109,7 @@ img {
 .procedures2 img,
 .procedures3 img,
 .procedures4 img {
+  display: flex;
   width: 70%;
   height: 600px;
   margin-bottom: 1px;
