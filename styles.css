@@ -31,12 +31,17 @@ body {
 
 .second-banner-img {
   position: absolute;
-
+  height: 70%;
+  width: 70%;
+  left: -0.5%;
   bottom: 0;
   padding: 3%;
   width: 400px;
-  clip-path: circle(30%);
+  clip-path: circle(37%);
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .info-box {
