@@ -4,24 +4,24 @@ body {
   background-color: rgb(175, 31, 32);
 }
 
-img {
-  background-image: url(imgs/top.jpg);
-  background-repeat: no-repeat;
-  display: block;
-  margin: 0 auto;
-  background-color: aqua;
-}
-
-.bannerimg {
+.banner {
   position: relative;
   background-color: aqua;
 }
 
-.bannertext {
+.banner-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
   font-family: cursive;
   position: absolute;
   font-size: 55px;
-  top: 2%;
+  top: -5%;
   left: 37%;
   right: 0;
   margin: auto;
@@ -29,8 +29,9 @@ img {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.secondbannerimg {
+.second-banner-img {
   position: absolute;
+
   bottom: 0;
   padding: 3%;
   width: 400px;
@@ -38,19 +39,18 @@ img {
   background-color: aqua;
 }
 
-.infobox {
+.info-box {
   width: 700px;
-  border: 15px solid rgb(255, 255, 255);
-  padding: 5px;
   margin: 20px auto;
-  background-color: aqua;
-  font-family: cursive;
-  border: 15px solid rgb(255, 255, 255);
+  padding: 15px;
   background-color: rgb(175, 31, 32);
+  border: 15px solid rgb(255, 255, 255);
+  color: white;
+  font-family: cursive;
   font-size: large;
 }
 
-.grid2x2 {
+.grid-2x2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,50 +64,23 @@ img {
   flex-basis: 100%;
 }
 
-.procedures1,
-.procedures2 {
-  flex-basis: auto;
-  width: 900px;
-  height: 250px;
+.procedure {
+  flex-basis: 50%;
   padding: 5%;
   margin: 0;
   border: 8px solid rgb(255, 255, 255);
   background-color: rgb(175, 31, 32);
   font-family: cursive;
-  background-repeat: no-repeat;
-  background-size: contain;
   color: white;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   text-align: right;
 }
 
-.procedures3,
-.procedures4 {
-  flex-basis: auto;
-  width: 900px;
-  height: 250px;
-  padding: 5%;
-  margin: 0;
-  border: 8px solid rgb(255, 255, 255);
-  background-color: rgb(175, 31, 32);
-  font-family: cursive;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: right;
-  color: white;
-  overflow: hidden;
-}
-
-.procedures1 img,
-.procedures2 img,
-.procedures3 img,
-.procedures4 img {
-  width: 70%;
-  height: 600px;
+.procedure img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
