@@ -48,7 +48,7 @@ body {
   width: 700px;
   margin: 20px auto;
   padding: 15px;
-  background-color: rgb(175, 32, 32);
+  background-color: rgb(175, 31, 32);
   border: 15px solid rgb(255, 255, 255);
   color: white;
   font-family: cursive;
@@ -74,7 +74,7 @@ body {
   flex-basis: 50%;
   padding: 5%;
   border: 8px solid rgb(255, 255, 255);
-  background-color: rgb(175, 32, 32);
+  background-color: rgb(175, 31, 32);
   font-family: cursive;
   color: white;
   overflow: hidden;
